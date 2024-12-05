@@ -1,0 +1,84 @@
+@import "/css/reset.css";
+
+html{
+    font-size: 100vw / 1920 * 10;
+}
+
+body{
+    color: #000;
+    background-color: #F8F9FF;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header{
+    padding: 1.3rem 3.1rem 0 3.1rem;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5px 0;
+}
+
+.logo-text{
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+}
+
+.logo-text.bold {
+    font-weight: 700;
+}
+
+.logo-text.medium {
+    font-weight: 500;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    column-gap: 1.25rem;
+}
+
+.nav-links li:nth-child(1) a {
+    margin-right: 3.1rem; /* отступ между Contact и How it works */
+}
+
+.nav-links  li  a {
+    font-weight: 600;
+}
+
+.nav-links li:nth-child(-n+2) a {
+    color: #009379;
+}
+
+.btn {
+    padding: 1.1rem 3.1rem;
+    text-align: center;
+    border-radius: 20px;
+}
+.btn-light-green {
+    background: #E5F4F2;
+}
+.btn-green {
+    background: #009379;
+    color: #fff;
+    display: flex;
+    align-content: center;
+    column-gap: 0.5rem;
+}
+.hero {
+}
+.container {
+}
