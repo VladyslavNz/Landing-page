@@ -12,9 +12,21 @@ body{
     font-style: normal;
 }
 
+/*header*/
+
+.header-container {
+    max-width: 1280px; 
+    margin: 0 auto;
+    padding: 0 3.125rem;
+}
+
 header{
-    padding: 1.3rem 3.1rem 0 3.1rem;
-    display: flex; 
+    padding-top: 1.3rem;
+    margin-bottom: 7.5rem;
+}
+
+.header-nav{
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -78,7 +90,78 @@ header{
     align-content: center;
     column-gap: 0.5rem;
 }
-.hero {
+
+/*hero*/
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 55px;
 }
-.container {
+.hero {
+    margin-bottom: 3.75rem;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 3.75rem;
+}
+
+.hero-text{
+    max-width: 650px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.hero-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 4.18rem;
+    font-weight: 700;
+    letter-spacing: -2.5%;
+    line-height: 130%;
+    margin-bottom: 1.25rem;
+}
+.color-text {
+    color: #3366FF;
+}
+
+.hero-text p{
+    font-size: 1.3rem;
+    line-height: 150%;
+    margin-bottom: 2.5rem;
+}
+
+.buttons{
+    display: flex;
+    column-gap: 1.1rem;
+    align-items: center;
+}
+
+.btn-white {
+    background: #fff;
+    border: #009379 1px solid;
+    color: #009379;
+}
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+.clients {
+    padding: 3.8rem 0;
+    margin-bottom: 7.5rem;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.8rem 0;
+    border-top: #D8D8D8 1px solid;
+    border-bottom: #D8D8D8 1px solid;
+}
+
+.client {
+    max-width: 100%;
 }
